@@ -40,14 +40,15 @@ const Footer: React.FC = () => {
               <li><a href="/#contact" className="text-black hover:text-black transition-colors font-medium">Contact</a></li>
             </ul>
           </div>
-          <div>
+                    <div>
             <h4 className="font-bold text-lg mb-8 uppercase tracking-widest text-black">Service Areas</h4>
             <ul className="space-y-4">
-              <li><span className="text-black font-medium">Dallas, TX</span></li>
-              <li><span className="text-black font-medium">Irving, TX</span></li>
-              <li><span className="text-black font-medium">Arlington, TX</span></li>
-              <li><span className="text-black font-medium">Grand Prairie, TX</span></li>
-              <li><span className="text-black font-medium">Carrollton, TX</span></li>
+              <li><Link to="/dallas" className="text-black hover:text-black transition-colors font-medium">Dallas, TX</Link></li>
+              <li><Link to="/irving" className="text-black hover:text-black transition-colors font-medium">Irving, TX</Link></li>
+              <li><Link to="/arlington" className="text-black hover:text-black transition-colors font-medium">Arlington, TX</Link></li>
+              <li><Link to="/grand-prairie" className="text-black hover:text-black transition-colors font-medium">Grand Prairie, TX</Link></li>
+              <li><Link to="/carrollton" className="text-black hover:text-black transition-colors font-medium">Carrollton, TX</Link></li>
+              <li><Link to="/richardson" className="text-black hover:text-black transition-colors font-medium">Richardson, TX</Link></li>
             </ul>
           </div>
         </div>

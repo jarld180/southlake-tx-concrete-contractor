@@ -62,6 +62,12 @@ const App: React.FC = () => {
                 <Route path="/garage-floors" element={<GarageFloors />} />
                 <Route path="/sidewalks" element={<Sidewalks />} />
                 <Route path="/services" element={<Services />} />
+                                <Route path="/dallas" element={<Home cityName="Dallas" />} />
+                <Route path="/irving" element={<Home cityName="Irving" />} />
+                <Route path="/arlington" element={<Home cityName="Arlington" />} />
+                <Route path="/grand-prairie" element={<Home cityName="Grand Prairie" />} />
+                <Route path="/carrollton" element={<Home cityName="Carrollton" />} />
+                <Route path="/richardson" element={<Home cityName="Richardson" />} />
                 <Route path="/:city/:service" element={<CityService />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/terms-of-service" element={<TermsOfService />} />
